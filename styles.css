@@ -1,0 +1,77 @@
+div {
+    border: 5px solid yellow;
+}
+
+.title{
+    text-align:center;
+}
+
+img {
+    width: 200px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sections {
+	display: flex;
+}
+
+.fox {
+    border: aqua dotted 5px;
+    outline: yellow dashed 4px;
+    margin: 10px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.fruits {
+	width: 300px;
+    height: 300px; 
+}
+
+h1 {
+    color: orange;
+}
+
+h2 {
+    color: brown;
+}
+
+p {
+    color: red;
+}
+
+body {
+    background-color: teal;
+}
+
+.posts {
+	width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.aboutMe {
+	width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    
+}
+
+.friendsList {
+    width: 25%; 
+    display: flex;
+    
+    flex-flow:column wrap;
+
+}
